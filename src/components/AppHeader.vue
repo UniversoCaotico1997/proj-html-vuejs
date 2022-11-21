@@ -40,7 +40,7 @@ export default {
 
 <template>
     <header id="site_header">
-        <div class="top_bar">
+        <section class="top_bar">
             <div class="container d-flex justify-content-between mt-5">
                 <!-- logo -->
                 <img src="../assets/img/theme_eduprime_logo.png" alt="">
@@ -59,7 +59,7 @@ export default {
                 </div>
             </div>
             <!-- /.menu -->
-        </div>
+        </section>
         <!-- /.contanier -->
     </header>
 </template>
