@@ -1,49 +1,62 @@
 <script>
 export default {
-    name: 'AppHeader'
+    name: 'AppHeader',
+    data() {
+        return {
+            menu: [
+                {
+                    text: `Home`,
+                    href: `#`
+                },
+                {
+                    text: `Courses`,
+                    href: `#`
+                },
+                {
+                    text: `About Us`,
+                    href: ``
+                },
+                {
+                    text: `News`,
+                    href: `#`
+                },
+                {
+                    text: `Pages`,
+                    href: `#`
+                },
+                {
+                    text: `Contact`,
+                    href: `#`
+                },
+                {
+                    text: `Purchase`,
+                    href: `#`
+                }
+            ]
+        }
+    }
 }
 </script>
 
 <template>
     <header id="site_header">
-        <div class="menu">
+        <div class="top_bar">
             <div class="container d-flex justify-content-between mt-5">
-
+                <!-- logo -->
                 <img src="../assets/img/theme_eduprime_logo.png" alt="">
-
-                <!-- /.left -->
-                <div class="right d-flex">
+                <!-- /.logo -->
+                <div class="menu d-flex">
                     <ul class="d-flex mt-3">
-                        <li>
-                            <a href="#">Home</a>
-                        </li>
-                        <li>
-                            <a href="#">Courses</a>
-                        </li>
-                        <li>
-                            <a href="#">About Us</a>
-                        </li>
-                        <li>
-                            <a href="#">News</a>
-                        </li>
-                        <li>
-                            <a href="#">Pages</a>
-                        </li>
-                        <li>
-                            <a href="#">Contact</a>
-                        </li>
-                        <li>
-                            <a href="#">Purchase</a>
+                        <li v-for="item in menu">
+                            <a href="#">{{ item.text }}</a>
                         </li>
                     </ul>
-                    <div class="align-self-center ">
-                        <a class=" button text-uppercase align-self-center rounded-pill" href="#">View Courses</a>
-                    </div>
+                    <!-- button -->
+                    <a class=" button text-uppercase align-self-center rounded-pill" href="#">View Courses</a>
+                    <!-- /.button -->
+
+                    <!-- /.right -->
                 </div>
-
-
-
-                <!-- /.right -->
             </div>
             <!-- /.menu -->
         </div>
