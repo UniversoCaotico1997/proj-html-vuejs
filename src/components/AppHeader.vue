@@ -1,96 +1,28 @@
 <script>
+import TopBar from "./TopBar.vue";
+import SectionJumbotron from "./SectionJumbotron.vue";
 export default {
     name: 'AppHeader',
-    data() {
-        return {
-            menu: [
-                {
-                    text: `Home`,
-                    href: `#`
-                },
-                {
-                    text: `Courses`,
-                    href: `#`
-                },
-                {
-                    text: `About Us`,
-                    href: ``
-                },
-                {
-                    text: `News`,
-                    href: `#`
-                },
-                {
-                    text: `Pages`,
-                    href: `#`
-                },
-                {
-                    text: `Contact`,
-                    href: `#`
-                },
-                {
-                    text: `Purchase`,
-                    href: `#`
-                }
-            ]
-        }
+    components: {
+        TopBar,
+        SectionJumbotron
     }
+
 }
 </script>
 
 <template>
     <header id="site_header">
-        <section class="top_bar">
-            <div class="container d-flex justify-content-between mt-5">
-                <!-- logo -->
-                <img src="../assets/img/theme_eduprime_logo.png" alt="">
-                <!-- /.logo -->
-                <div class="menu d-flex">
-                    <ul class="d-flex mt-3">
-                        <li v-for="item in menu">
-                            <a href="#">{{ item.text }}</a>
-                        </li>
-                    </ul>
-                    <!-- button -->
-                    <a class=" button text-uppercase align-self-center rounded-pill" href="#">View Courses</a>
-                    <!-- /.button -->
 
-                    <!-- /.right -->
-                </div>
-            </div>
-            <!-- /.menu -->
-        </section>
-        <!-- /.contanier -->
+        <TopBar></TopBar>
+        <!-- /.TopBar -->
+
+        <SectionJumbotron></SectionJumbotron>
+        <!-- /.SectionJumbotron -->
+
     </header>
 </template>
 
 <style lang="scss" scoped>
-img {
-    width: 20%;
-}
 
-ul {
-    list-style: none;
-
-    li {
-        margin: 0 0.50rem;
-
-        a {
-            text-decoration: none;
-            color: white;
-
-            &:hover {
-                color: #e9d758;
-            }
-        }
-    }
-
-}
-
-.button {
-    padding: 1rem;
-    background-color: #e9d758;
-    text-decoration: none;
-    color: white;
-}
 </style>

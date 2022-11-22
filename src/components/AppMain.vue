@@ -1,18 +1,13 @@
 <script>
-import SectionJumbotron from "./SectionJumbotron.vue";
 export default {
-    name: `AppMain`,
-    components: {
-        SectionJumbotron
-    }
-
+    name: `AppMain`
 }
 </script>
 
 
 <template>
     <main id="site_main">
-        <SectionJumbotron></SectionJumbotron>
+
     </main>
 </template>
 
