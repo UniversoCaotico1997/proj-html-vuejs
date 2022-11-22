@@ -1,11 +1,14 @@
 <script>
-import InfoCourses from "./InfoCourses.vue";
+import SectionInfo from "./SectionInfo.vue";
 import SectionFaculties from "./SectionFaculties.vue";
+import SectionUniversity from "./SectionUniversity.vue";
+
 export default {
     name: `AppMain`,
     components: {
-        InfoCourses,
-        SectionFaculties
+        SectionInfo,
+        SectionFaculties,
+        SectionUniversity
 
     }
 }
@@ -15,14 +18,19 @@ export default {
 <template>
     <main id="site_main">
 
-        <InfoCourses></InfoCourses>
+        <SectionInfo></SectionInfo>
 
-        <!-- /.InfoCourses -->
-
+        <!-- /.SectionInfo -->
 
         <SectionFaculties></SectionFaculties>
 
         <!-- /.SectionFaculties -->
+
+        <SectionUniversity></SectionUniversity>
+
+        <!-- /.SectionUniversity -->
+
+
 
     </main>
 </template>

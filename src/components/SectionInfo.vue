@@ -1,11 +1,11 @@
 <script>
 export default {
-    name: 'InfoCourses'
+    name: 'SectionInfo'
 }
 </script>
 
 <template>
-    <section class="info_courses bg-white">
+    <section class="info bg-white">
         <!-- button -->
         <button class="btn btn-dark ms-3">
             <small>
@@ -42,10 +42,6 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-.info_courses {
-    background-image: url(../assets);
-}
-
 .container {
     width: 70%;
     padding: 7rem 0;

@@ -40,7 +40,7 @@ export default {
 
 
 <template>
-
+    <!-- Rimuover container ed utilizzare space around -->
     <section class="top_bar">
         <div class="container d-flex justify-content-between mt-3">
             <!-- logo -->

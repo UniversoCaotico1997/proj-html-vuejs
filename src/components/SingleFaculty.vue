@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-    <section class="single_faculty bg-white pb-4">
+    <section class="single_faculty bg-white">
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -13,7 +13,7 @@ export default {
                 </div>
                 <!-- /.col -->
                 <div class="col">
-                    <h1 class="py-3">Law Faculty</h1>
+                    <h2 class="py-3">Law Faculty</h2>
                     <p class="pb-4"> Learning from world-leading academics and practitioners, you'ill not only
                         receive
                         an outstanding grouding in the theory of law, but you will be able to understand
@@ -32,6 +32,10 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+.single_faculty {
+    padding-bottom: 6rem;
+}
+
 .container {
     width: 70%;
 
