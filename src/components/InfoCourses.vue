@@ -5,19 +5,20 @@ export default {
 </script>
 
 <template>
-    <section class="info_courses">
-
+    <section class="info_courses bg-white">
+        <!-- button -->
         <button class="btn btn-dark ms-3">
             <small>
                 Purchase EduPrime on Envato
                 <br> Market
             </small>
         </button>
-
+        <!-- /.button -->
         <div class="container">
             <div class="icon">
                 <img src="../assets/img/Books-icon.png" width="50px" alt="">
             </div>
+            <!-- /.icon -->
             <div class="row">
                 <div class="col">
                     <h1 class="py-3">Thousand of courses for any type of student</h1>
@@ -42,13 +43,16 @@ export default {
 
 <style lang="scss" scoped>
 .info_courses {
-    background-color: white;
     background-image: url(../assets);
 }
 
 .container {
     width: 70%;
     padding: 7rem 0;
+
+    p {
+        font-size: small;
+    }
 
     .button {
         padding: 0.75rem 1rem;
