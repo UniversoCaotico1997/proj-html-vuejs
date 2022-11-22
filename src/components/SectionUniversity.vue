@@ -1,6 +1,10 @@
 <script>
+import SectionEvents from "./SectionEvents.vue";
 export default {
-    name: 'SectionUniversity'
+    name: 'SectionUniversity',
+    components: {
+        SectionEvents
+    }
 }
 </script>
 
@@ -62,10 +66,11 @@ export default {
         <!-- /.container -->
     </section>
 
-    <section class="events">
+    <!--/. SectionUniversity -->
 
+    <SectionEvents></SectionEvents>
 
-    </section>
+    <!--/. SectionEvents -->
 
 </template>
 
