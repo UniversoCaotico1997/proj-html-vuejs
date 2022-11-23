@@ -24,15 +24,15 @@ export default {
                     </p>
                     <div class="social d-flex gap-3 ">
                         <div class="circle facebook rounded-circle">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <img src="../assets/img/images (1).png" alt="">
                         </div>
                         <!-- /.facebook -->
                         <div class=" circle twitter rounded-circle">
-
+                            <img src="../assets/img/images.png" alt="">
                         </div>
                         <!-- /.twitter -->
                         <div class=" circle intagram rounded-circle">
-
+                            <img src="../assets/img/download.png" alt="">
                         </div>
                         <!-- /.intagram -->
                     </div>
