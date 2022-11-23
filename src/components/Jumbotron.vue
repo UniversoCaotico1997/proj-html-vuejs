@@ -1,6 +1,6 @@
 <script>
 export default {
-    name: `SectionJumbotron`
+    name: `Jumbotron`
 }
 </script>
 

@@ -1,6 +1,6 @@
 <script>
 export default {
-    name: 'SectionEvents'
+    name: 'Events'
 }
 </script>
 

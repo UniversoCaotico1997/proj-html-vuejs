@@ -1,11 +1,11 @@
 <script>
 import TopBar from "./TopBar.vue";
-import SectionJumbotron from "./SectionJumbotron.vue";
+import Jumbotron from "./Jumbotron.vue";
 export default {
     name: 'AppHeader',
     components: {
         TopBar,
-        SectionJumbotron
+        Jumbotron
     }
 
 }
@@ -17,8 +17,8 @@ export default {
         <TopBar></TopBar>
         <!-- /.TopBar -->
 
-        <SectionJumbotron></SectionJumbotron>
-        <!-- /.SectionJumbotron -->
+        <Jumbotron></Jumbotron>
+        <!-- /.Jumbotron -->
 
     </header>
 </template>

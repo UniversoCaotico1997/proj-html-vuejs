@@ -11,10 +11,11 @@ export default {
 </script>
 
 <template>
-    <!-- Rinominare il componente Info in Introduzione e creare un componente info -->
+
     <section class="introduction">
 
         <Info></Info>
+
         <!-- /.info -->
 
         <Faculties></Faculties>
