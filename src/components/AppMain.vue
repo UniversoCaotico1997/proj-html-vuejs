@@ -2,13 +2,14 @@
 import SectionIntroduction from "./Sectionintroduction.vue";
 import SectionUniversity from "./SectionUniversity.vue";
 import SectionCourses from "./SectionCourses.vue";
-
+import SectionPartners from "./SectionPartners.vue";
 export default {
     name: `AppMain`,
     components: {
         SectionIntroduction,
         SectionUniversity,
-        SectionCourses
+        SectionCourses,
+        SectionPartners
 
     }
 }
@@ -29,6 +30,10 @@ export default {
         <SectionCourses></SectionCourses>
 
         <!-- /.SectionCourses -->
+
+        <SectionPartners></SectionPartners>
+
+        <!-- /.SectionPartners -->
 
     </main>
 
