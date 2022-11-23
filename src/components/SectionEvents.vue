@@ -6,14 +6,14 @@ export default {
 
 
 <template>
-    <section class="events">
+    <section class="events pb-5">
         <div class="container">
             <div class="logo d-flex justify-content-center align-items-center pt-5">
                 <img src="../assets/img/upcoming-events-calendar-icon.png" alt="">
             </div>
             <!-- /.logo -->
             <!-- title -->
-            <h1 class=" text-white text-center my-4">Upcoming Events</h1>
+            <h1 class=" text-white text-center my-5">Upcoming Events</h1>
             <!-- /.title -->
             <div class="coaching_session d-flex gap-5">
                 <div class="first_session bg-white text-center px-2 rounded position-relative">
@@ -60,12 +60,10 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-.container {
-    width: 70%;
+@use'../../src/assets/partial/container';
 
-    img {
-        width: 50px;
-    }
+img {
+    width: 80px;
 }
 
 .button {

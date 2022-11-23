@@ -32,13 +32,10 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use'../assets/partial/container';
+
 .single_faculty {
     padding-bottom: 6rem;
-}
-
-.container {
-    width: 70%;
-
 }
 
 img {

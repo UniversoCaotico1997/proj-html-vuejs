@@ -9,17 +9,22 @@ export default {
 </script>
 
 <template>
+    <!-- rinominare il file in YEAR e spostarlo in un componente -->
     <section class="university">
         <div class="container">
 
             <div class="logo d-flex justify-content-center align-items-center pt-5">
-                <img src="../assets/img/Clock-and-Bell.png" width="50px" alt="">
+                <img src="../assets/img/Clock-and-Bell.png" width="80px" alt="">
             </div>
             <!-- /.logo -->
 
-            <!-- title -->
-            <h1 class=" text-white text-center my-4">University Year</h1>
-            <!-- /.title -->
+            <div class="box d-flex justify-content-center">
+                <div class="title text-white text-center my-4">
+                    <h1>University Year</h1>
+                </div>
+                <!-- /.title -->
+            </div>
+            <!-- /.box -->
 
             <div class="time_line position-relative">
 
@@ -75,11 +80,10 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-.container {
-    width: 70%;
-}
+@use'../assets/partial/container';
 
-h1 {
+.title {
+    width: 30%;
     background-color: #DB2A2C;
 }
 

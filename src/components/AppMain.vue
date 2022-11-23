@@ -1,13 +1,11 @@
 <script>
-import SectionInfo from "./SectionInfo.vue";
-import SectionFaculties from "./SectionFaculties.vue";
+import SectionIntroduction from "./Sectionintroduction.vue";
 import SectionUniversity from "./SectionUniversity.vue";
 
 export default {
     name: `AppMain`,
     components: {
-        SectionInfo,
-        SectionFaculties,
+        SectionIntroduction,
         SectionUniversity
 
     }
@@ -18,21 +16,16 @@ export default {
 <template>
     <main id="site_main">
 
-        <SectionInfo></SectionInfo>
+        <SectionIntroduction></SectionIntroduction>
 
-        <!-- /.SectionInfo -->
-
-        <SectionFaculties></SectionFaculties>
-
-        <!-- /.SectionFaculties -->
+        <!-- /.SectionIntroduction -->
 
         <SectionUniversity></SectionUniversity>
 
         <!-- /.SectionUniversity -->
 
-
-
     </main>
+
 </template>
 
 <style>

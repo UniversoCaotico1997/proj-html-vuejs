@@ -7,7 +7,7 @@ export default {
 <template>
     <section class="jumbotron py-5">
         <div class="container">
-            <div class="box text-center py-5">
+            <div class="text-center py-5">
                 <h1 class="text-white mb-5 ">Key to your success</h1>
                 <p class="text-white mb-5 ">EduPrime is the most versatile WordPress theme for educational purposes,
                     <br> showcasing universities, courses, secondary schools etc.
@@ -15,11 +15,10 @@ export default {
                 <a class=" button left rounded-pill me-5" href="">Seach courses</a>
                 <a class=" button right rounded-pill" href="">Apply for university</a>
             </div>
-            <!-- /.box -->
         </div>
-
-
+        <!-- /.container -->
     </section>
+    <!-- /.jumbotron -->
 </template>
 
 

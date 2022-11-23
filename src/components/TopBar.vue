@@ -42,26 +42,24 @@ export default {
 <template>
     <!-- Rimuover container ed utilizzare space around -->
     <section class="top_bar">
-        <div class="container d-flex justify-content-between mt-3">
+        <div class="d-flex justify-content-around my-3">
             <!-- logo -->
             <img src="../assets/img/theme_eduprime_logo.png" alt="">
             <!-- /.logo -->
             <div class="menu d-flex">
-                <ul class="d-flex mt-3">
+                <ul class="d-flex mt-4">
                     <li v-for="item in menu">
                         <a href="#">{{ item.text }}</a>
                     </li>
                 </ul>
                 <!-- button -->
-                <a class=" button text-uppercase align-self-center rounded-pill" href="#">View Courses</a>
+                <a class=" button text-uppercase align-self-center rounded-pill ms-3" href="#">View Courses</a>
                 <!-- /.button -->
-
-                <!-- /.right -->
             </div>
+            <!-- /.menu -->
         </div>
-        <!-- /.menu -->
     </section>
-    <!-- /.contanier -->
+    <!-- /.top_bar -->
 
 </template>
 

@@ -1,22 +1,20 @@
 <script>
 export default {
-    name: 'SectionInfo'
+    name: 'Info'
 }
 </script>
 
 <template>
-    <section class="info bg-white">
-        <!-- button -->
-        <button class="btn btn-dark ms-3">
-            <small>
-                Purchase EduPrime on Envato
-                <br> Market
-            </small>
-        </button>
-        <!-- /.button -->
-        <div class="container">
+    <div class="info bg-white">
+        <div class="box text-white text-center rounded bg-dark ms-3">
+            <p>
+                Purchase EduPrime on Envato Market
+            </p>
+        </div>
+        <!-- /.box -->
+        <div class="container py-5">
             <div class="icon">
-                <img src="../assets/img/Books-icon.png" width="50px" alt="">
+                <img src="../assets/img/Books-icon.png" width="80px" alt="">
             </div>
             <!-- /.icon -->
             <div class="row">
@@ -37,25 +35,29 @@ export default {
             <!-- /.row -->
         </div>
         <!-- /.container -->
-    </section>
-
+    </div>
 </template>
 
 <style lang="scss" scoped>
-.container {
-    width: 70%;
-    padding: 7rem 0;
+@use'../assets/partial/container';
+
+.box {
+    width: 180px;
 
     p {
-        font-size: small;
+        font-size: x-small;
     }
 
-    .button {
-        padding: 0.75rem 1rem;
-        background-color: #e9d758;
-        text-decoration: none;
-        color: white;
-    }
+}
 
+p {
+    font-size: small;
+}
+
+.button {
+    padding: 0.75rem 1rem;
+    background-color: #e9d758;
+    text-decoration: none;
+    color: white;
 }
 </style>

@@ -1,7 +1,7 @@
 <script>
 import SingleFaculty from "./SingleFaculty.vue";
 export default {
-    name: 'SectionFaculties',
+    name: 'Faculties',
     components: {
         SingleFaculty
     }
