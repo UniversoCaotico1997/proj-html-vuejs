@@ -13,12 +13,9 @@ export default {
         </div>
         <!-- /.box -->
         <div class="container py-5">
-            <div class="icon">
-                <img src="../assets/img/Books-icon.png" width="80px" alt="">
-            </div>
-            <!-- /.icon -->
             <div class="row">
                 <div class="col">
+                    <img src="../assets/img/Books-icon.png" width="80px" alt="">
                     <h1 class="py-3">Thousand of courses for any type of student</h1>
                     <p class="pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium ducimus
                         sapiente quam ab?
