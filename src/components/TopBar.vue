@@ -1,38 +1,13 @@
 <script>
+import Menu from "../assets/js/Menu";
 export default {
     name: `TopBar`,
+    componets: {
+        Menu
+    },
     data() {
         return {
-            menu: [
-                {
-                    text: `Home`,
-                    href: `#`
-                },
-                {
-                    text: `Courses`,
-                    href: `#`
-                },
-                {
-                    text: `About Us`,
-                    href: ``
-                },
-                {
-                    text: `News`,
-                    href: `#`
-                },
-                {
-                    text: `Pages`,
-                    href: `#`
-                },
-                {
-                    text: `Contact`,
-                    href: `#`
-                },
-                {
-                    text: `Purchase`,
-                    href: `#`
-                }
-            ]
+            Menu
         }
     }
 }
@@ -48,7 +23,7 @@ export default {
             <!-- /.logo -->
             <div class="menu d-flex">
                 <ul class="d-flex mt-4">
-                    <li v-for="item in menu">
+                    <li v-for="item in Menu">
                         <a href="#">{{ item.text }}</a>
                     </li>
                 </ul>
