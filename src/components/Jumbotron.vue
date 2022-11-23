@@ -9,7 +9,8 @@ export default {
         <div class="container">
             <div class="text-center py-5">
                 <h1 class="text-white mb-5 ">Key to your success</h1>
-                <p class="text-white mb-5 ">EduPrime is the most versatile WordPress theme for educational purposes,
+                <p class="text-white fs-6 mb-5 ">EduPrime is the most versatile WordPress theme for educational
+                    purposes,
                     <br> showcasing universities, courses, secondary schools etc.
                 </p>
                 <a class=" button left rounded-pill me-5" href="">Seach courses</a>

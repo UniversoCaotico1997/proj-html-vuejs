@@ -15,7 +15,7 @@ export default {
 
             <div class="box d-flex justify-content-center">
                 <div class="title text-white text-center my-4">
-                    <h1>University Year</h1>
+                    <h2>University Year</h2>
                 </div>
                 <!-- /.title -->
             </div>

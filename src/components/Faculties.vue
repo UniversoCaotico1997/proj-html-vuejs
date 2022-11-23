@@ -11,7 +11,7 @@ export default {
 <template>
     <section class="faculties bg-white pb-5">
         <!-- Title section -->
-        <h1 class="text-center pb-3">Faculties avaiable at EduPrime</h1>
+        <h2 class="text-center pb-3">Faculties avaiable at EduPrime</h2>
         <p class="text-center  pb-3">A single university with a load of courses, tailored
             <br> to satisfy any student's need
         </p>

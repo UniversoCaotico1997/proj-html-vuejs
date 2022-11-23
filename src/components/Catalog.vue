@@ -7,7 +7,7 @@ export default {
     <div class="catalog bg-white pb-5">
         <div class="container">
             <!-- title section -->
-            <h1 class=" py-5">Latest Courses</h1>
+            <h2 class=" py-5">Latest Courses</h2>
             <!-- /.title section -->
             <div class="shop d-flex justify-content-center gap-4">
                 <div class="decisions bg-white text-center px-2">

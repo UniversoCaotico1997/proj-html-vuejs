@@ -13,7 +13,7 @@ export default {
             </div>
             <!-- /.logo -->
             <!-- title -->
-            <h1 class=" text-white text-center my-5">Upcoming Events</h1>
+            <h2 class=" text-white text-center my-5">Upcoming Events</h2>
             <!-- /.title -->
             <div class="coaching_session d-flex gap-5">
                 <div class="first_session bg-white text-center px-2 rounded position-relative">

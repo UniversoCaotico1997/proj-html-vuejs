@@ -10,7 +10,7 @@ export default {
             <div class="row">
                 <div class="col">
                     <img src="../assets/img/Exam-icon.png" width="80px" alt="">
-                    <h1 class="py-3">The most efficent examination method</h1>
+                    <h2 class="py-3">The most efficent examination method</h2>
                     <p class="pb-4">EduPrime has gathered teachers from around the globe to
                         <br> brainstorm in order to facilitate the evulation of our students.
                         <br> Every techer from our university has an influence on how
@@ -33,7 +33,7 @@ export default {
                 <!-- /.col -->
                 <div class="col">
                     <img src="../assets/img/Exam-icon-1.png" width="80px" alt="">
-                    <h1 class="py-3">Variables fee for international students</h1>
+                    <h2 class="py-3">Variables fee for international students</h2>
                     <p class="pb-4">EduPrime has gathered teachers from around the globe to
                         <br> brainstorm in order to facilitate the evulation of our students.
                         <br> Every techer from our university has an influence on how

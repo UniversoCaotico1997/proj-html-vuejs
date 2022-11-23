@@ -16,7 +16,7 @@ export default {
             <div class="row">
                 <div class="col">
                     <img src="../assets/img/Books-icon.png" width="80px" alt="">
-                    <h1 class="py-3">Thousand of courses for any type of student</h1>
+                    <h2 class="py-3">Thousand of courses for any type of student</h2>
                     <p class="pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium ducimus
                         sapiente quam ab?
                         Nemo debitis inventore sint obcaecati officiis provident!
@@ -44,11 +44,6 @@ export default {
     p {
         font-size: x-small;
     }
-
-}
-
-p {
-    font-size: small;
 }
 
 .button {
