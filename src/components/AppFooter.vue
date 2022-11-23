@@ -15,23 +15,23 @@ export default {
 <template>
     <footer id="site_footer">
         <div class="container">
-            <div class="row mt-5 text-white">
+            <div class="row pt-5 text-white">
                 <div class="col-3">
                     <img src="../assets/img/theme_eduprime_logo.png" alt="">
                     <p class="py-4 text-white">EduPrime is the most versatile WordPress theme for
                         educational purpose, showcasing universities,
                         course, secondary school etc.
                     </p>
-                    <div class="social">
-                        <div class="facebook">
-
+                    <div class="social d-flex gap-3 ">
+                        <div class="circle facebook rounded-circle">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
                         </div>
                         <!-- /.facebook -->
-                        <div class="twitter">
+                        <div class=" circle twitter rounded-circle">
 
                         </div>
                         <!-- /.twitter -->
-                        <div class="intagram">
+                        <div class=" circle intagram rounded-circle">
 
                         </div>
                         <!-- /.intagram -->
@@ -60,12 +60,12 @@ export default {
                 <div class="col-3">
                     <div class="square position-relative">
                         <input class="custom rounded-pill" type="text" placeholder="Search...">
-                        <div class=" send rounded-circle "></div>
+                        <div class=" search rounded-circle "></div>
                     </div>
                     <!-- /.square -->
                     <h5 class="mt-4 text-end">Search categories</h5>
 
-                    <div class="box d-flex flex-wrap justify-content-end text-uppercase">
+                    <div class="various_faculties d-flex flex-wrap justify-content-end text-uppercase">
                         <div class="faculties rounded-pill">
                             <small>economy</small>
                         </div>
@@ -88,6 +88,7 @@ export default {
                             <small>law</small>
                         </div>
                     </div>
+                    <!-- /.various_faculties -->
                 </div>
                 <!-- /.col -->
             </div>
@@ -105,13 +106,13 @@ ul {
 }
 
 .custom {
-    padding: 1rem 2rem;
+    padding: 1rem;
 }
 
-.send {
+.search {
     position: absolute;
     top: 0;
-    right: -20px;
+    right: -17px;
     width: 60px;
     height: 60px;
     background-color: #E9D758;
@@ -121,5 +122,11 @@ ul {
     padding: 2px 6px;
     border: 1px solid white;
     margin: 0.50rem;
+}
+
+.circle {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #E9D758;
 }
 </style>
