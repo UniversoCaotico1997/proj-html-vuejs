@@ -3,70 +3,67 @@ export default {
     name: 'Description'
 }
 </script>
+
 <template>
-    <div class="description bg-white pb-5">
-        <div class="container">
-            <!-- title section -->
-            <h1 class=" py-5">Latest Courses</h1>
-            <!-- /.title section -->
-            <div class="shop d-flex justify-content-center gap-4">
-                <div class="decisions bg-white text-center px-2">
-                    <img src="../assets/img/Decisions-icon.png" alt="">
-                    <h5 class="py-2">Make Better Decisions</h5>
-                    <p>Teacher: James Collins</p>
-                    <p>Price:$21.00</p>
-                    <a class="button rounded-pill" href="#">View Course</a>
+    <div class="description bg-white">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col">
+                    <img src="../assets/img/Exam-icon.png" width="80px" alt="">
+                    <h1 class="py-3">The most efficent examination method</h1>
+                    <p class="pb-4">EduPrime has gathered teachers from around the globe to
+                        <br> brainstorm in order to facilitate the evulation of our students.
+                        <br> Every techer from our university has an influence on how
+                        <br> students are evaluated at his/her
+                        subject.
+                    </p>
+                    <a class="button rounded-pill" href="#">Discover the Method</a>
                 </div>
-                <!-- /.decisions -->
-                <div class="speaker bg-white text-center px-2">
-                    <img src="../assets/img/Speaker-icon.png" alt="">
-                    <h5 class="py-2">How to be a speaker</h5>
-                    <p>Teacher: James Collins</p>
-                    <p>Price: Free</p>
-                    <a class="button rounded-pill" href="#">View Course</a>
+                <!-- /.col -->
+                <div class="col">
+                    <img src="../assets/img/Exam-Illustration.png" alt="">
                 </div>
-                <!-- /.speaker -->
-                <div class="network bg-white text-center px-2">
-                    <img src="../assets/img/Network-icon.png" alt="">
-                    <h5 class="py-2">Coaching Session</h5>
-                    <p>Teacher: James Collins</p>
-                    <p>Price: Free</p>
-                    <a class="button rounded-pill" href="#">View Course</a>
-                </div>
-                <!-- /.network -->
-                <div class="brand bg-white text-center px-2">
-                    <img src="../assets/img/Brand-icon.png" alt="">
-                    <h5 class="py-2">Coaching Session</h5>
-                    <p>Teacher: James Collins</p>
-                    <p>Price: Free</p>
-                    <a class="button rounded-pill" href="#">View Course</a>
-                </div>
-                <!-- /.brand -->
+                <!-- /.col -->
             </div>
-            <!-- /.shop -->
-
-
-
-
+            <!-- /.row -->
+            <div class="row mt-4 g-5">
+                <div class="col">
+                    <img src="../assets/img/Girl-Illustration.png" alt="">
+                </div>
+                <!-- /.col -->
+                <div class="col">
+                    <img src="../assets/img/Exam-icon-1.png" width="80px" alt="">
+                    <h1 class="py-3">Variables fee for international students</h1>
+                    <p class="pb-4">EduPrime has gathered teachers from around the globe to
+                        <br> brainstorm in order to facilitate the evulation of our students.
+                        <br> Every techer from our university has an influence on how
+                        <br> students are evaluated at his/her
+                        subject.
+                    </p>
+                    <a class="button rounded-pill" href="#">List of Fees</a>
+                </div>
+                <!-- /.col -->
+            </div>
+            <!-- /.row -->
         </div>
+        <!-- /.container -->
+
 
     </div>
-
+    <!-- /.description -->
 </template>
 
 <style lang="scss" scoped>
-@use'../../src/assets/partial/container';
+@use'../assets/partial/container';
 
-img {
-    width: 70px;
-    padding-bottom: 0.5rem;
+p {
+    font-size: small;
 }
 
 .button {
     padding: 0.75rem 1rem;
+    background-color: #DB2A2C;
     text-decoration: none;
     color: white;
-    background-color: #DB2A2C;
-    display: inline-block;
 }
 </style>

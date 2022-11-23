@@ -1,8 +1,10 @@
 <script>
 import Description from "./Description.vue";
+import Catalog from "./Catalog.vue";
 export default {
     name: 'SectionCourses',
     components: {
+        Catalog,
         Description
     }
 }
@@ -12,9 +14,13 @@ export default {
 
     <section class="courses">
 
+        <Catalog></Catalog>
+
+        <!-- /.Catalog -->
+
         <Description></Description>
 
-        <!-- /.description -->
+        <!-- /.Description -->
 
 
     </section>
