@@ -58,4 +58,8 @@ export default {
 
 <style lang="scss" scoped>
 @use'../assets/partial/container';
+
+.box {
+    padding-bottom: 5rem;
+}
 </style>
