@@ -44,7 +44,7 @@ img {
 
 .button {
     padding: 0.75rem 1rem;
-    background-color: #e5768e;
+    background-color: #DB2A2C;
     text-decoration: none;
     color: white;
 }

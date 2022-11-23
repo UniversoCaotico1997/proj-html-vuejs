@@ -35,7 +35,7 @@ export default {
 .send {
     position: absolute;
     top: 0;
-    right: 0px;
+    right: 1px;
     width: 60px;
     height: 60px;
     background-color: #E9D758;
