@@ -1,5 +1,5 @@
 <script>
-import SectionIntroduction from "./Sectionintroduction.vue";
+import SectionIntroduction from "./SectionIntroduction.vue";
 import SectionUniversity from "./SectionUniversity.vue";
 import SectionCourses from "./SectionCourses.vue";
 import SectionPartners from "./SectionPartners.vue";

@@ -56,10 +56,6 @@ export default {
 <style lang="scss" scoped>
 @use'../assets/partial/container';
 
-p {
-    font-size: small;
-}
-
 .button {
     padding: 0.75rem 1rem;
     background-color: #DB2A2C;

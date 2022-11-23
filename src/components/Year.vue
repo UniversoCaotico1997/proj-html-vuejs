@@ -77,6 +77,10 @@ export default {
 
 .time_line {
     padding: 8rem;
+
+    p {
+        font-size: x-small;
+    }
 }
 
 .description_classes {
@@ -101,9 +105,5 @@ export default {
     position: absolute;
     bottom: 40px;
     right: 290px;
-}
-
-p {
-    font-size: x-small;
 }
 </style>

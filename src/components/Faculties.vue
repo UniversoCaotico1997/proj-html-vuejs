@@ -54,10 +54,6 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-p {
-    font-size: small;
-}
-
 .square {
     width: 200px;
     height: 150px;
