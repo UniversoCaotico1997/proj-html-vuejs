@@ -16,7 +16,7 @@ export default {
                 Leverage agile frameworks to provide a robust synopsi for high
                 <br> overwies. Iterative approaches to corporate strategy.
             </p>
-            <div class="box d-flex ">
+            <div class="box d-flex gap-4 ">
                 <div class="square align-self-center">
                     <img src="../assets/img/partner-2.png" alt="">
                 </div>
